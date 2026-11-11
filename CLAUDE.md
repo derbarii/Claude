@@ -26,8 +26,19 @@ aus dem Inhalt einen neuen, eigenen Karussell Post bauen. Nicht nachfragen, dire
 8. Commit und Push auf den Arbeitsbranch.
 
 ## Slide Typen in spec.json
-cover, text (mit optional example), list (items), stat, compare (cols mit on), quote, takeaway, cta.
-`**wort**` markiert Akzentfarbe, `\n` bricht um. Theme pro Slide: `dark` oder `light`.
+cover, text (mit optional example), list (items, icons), stat, compare (cols mit on, optional rows/name als Profilkarte), quote, takeaway, cta (icon).
+`**wort**` markiert Akzentfarbe, `\n` bricht um. Theme pro Slide: `dark`, `light` oder `accent` (volle Akzentfläche, gut für Cover und CTA).
+
+## Design Pflicht: jeder Post braucht Grafik
+Reine Textfolien wirken wie KI Content. Pro Post mindestens 5 Slides mit Grafik:
+- `visual` auf cover/text/takeaway/stat: `chat` (q, a, tag, tagType ok, agent, name), `search` (q, name, meta, status),
+  `dns` (domain, rows [[label, wert, hl]]), `sync` (center, nodes [{icon, label, on}]).
+- `list.icons`: Lucide Icon Namen pro Item (Globe, Search, Server, Mail, IdCard, Phone, MapPin ...).
+- `sticker` (text, x, y, size, rotate) für Badges wie "Neu".
+- `example` mit `exampleLabel` und `exampleIcon` wird als Karte gerendert (OEZ AI Fingerprint).
+- Visuelle Klammer: Grafik aus Slide 2 in Slide 8 aufgelöst zeigen (z.B. Chat ungeprüft, dann verifiziert).
+- Beispielnamen im Mockup als Beispiel kennzeichnen, keine echten Hotels.
+- Fallback render.mjs kann keine visuals, nur Redesign.
 
 ## Textlimits (sonst Überlauf)
 - cover title: max ca. 7 Wörter

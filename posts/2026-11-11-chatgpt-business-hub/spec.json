@@ -6,15 +6,176 @@
   "brand": "OEZ AI",
   "handle": "@oez.ai",
   "slides": [
-    { "type": "cover", "kicker": "Seit 10. November", "title": "Dein Unternehmen steht jetzt in **ChatGPT**", "sub": "OpenAI hat den Business Hub gestartet. Das Profil existiert, aber es gehört noch nicht dir." },
-    { "type": "text", "title": "ChatGPT beschreibt dich so oder so", "text": "Die Frage ist nur, mit welchen Daten. Ohne Claim übernimmt das Modell, was es im Netz findet. Öffnungszeiten, Angebot, Preise, alles ungeprüft." },
-    { "type": "list", "kicker": "Setup in 5 Schritten", "title": "So sicherst du dir dein Profil", "items": ["**chatgpt.com/business-hub** öffnen", "Unternehmen suchen und beanspruchen", "Domain per DNS TXT Eintrag verifizieren", "Geschäftliche E-Mail und Telefon bestätigen", "Identität mit Ausweis prüfen lassen"] },
-    { "type": "text", "title": "Der einzige technische Schritt: **DNS**", "text": "Ein TXT Eintrag beim Domain Anbieter, meist schnell erledigt. Kein Zugang? Webagentur oder IT kurz fragen, nicht abbrechen.", "exampleLabel": "Tipp", "example": "Alternativ lässt sich per Telefon, E-Mail oder Shopify Login verifizieren." },
-    { "type": "compare", "title": "Was der Claim ändert", "cols": [ { "label": "Ohne Profil", "text": "ChatGPT nutzt Fremdquellen. Veraltete Infos bleiben stehen. Du siehst nicht, was gefragt wird." }, { "label": "Mit Profil", "text": "Eigene Daten als Quelle. Änderungen direkt pflegen. Auswertungen zu Anfragen.", "on": true } ] },
-    { "type": "text", "title": "Neu dabei: der **Business Agent**", "text": "Im Hub lässt sich ein Agent veröffentlichen, der in ChatGPT Fragen zu deinem Angebot beantwortet. Zum Start kostenlos, Stand heute." },
-    { "type": "text", "title": "Was wir Hotels konkret raten", "text": "Daten 1:1 wie im Google Profil und auf der Website. Widersprüche machen jede KI unsicher.", "example": "Für unseren KI Rezeptionisten pflegen wir Zimmerarten, Check in Zeiten und Sprachen zentral. Genau diese Daten gehören auch ins ChatGPT Profil." },
-    { "type": "takeaway", "title": "Erst beanspruchen, dann optimieren.", "text": "Erste Auswertungen brauchen ein paar Tage. Jeder Tag Warten ist ein Tag ohne Daten." },
-    { "type": "cta", "title": "Schon **beansprucht**?", "text": "Schreib in die Kommentare, an welchem Schritt du hängst. Wir helfen beim DNS Teil.", "button": "Speichern für den Setup" }
+    {
+      "type": "cover",
+      "theme": "accent",
+      "kicker": "Seit 10. November",
+      "title": "Dein Hotel steht jetzt in **ChatGPT**",
+      "titleSize": 100,
+      "sub": "Das Profil existiert schon. Es gehört nur noch nicht dir.",
+      "visual": {
+        "type": "search",
+        "q": "Hotel mit Spa am Bodensee",
+        "name": "Hotel Seeblick",
+        "meta": "Beispiel · 4 Sterne · Konstanz",
+        "tilt": -3
+      },
+      "sticker": {
+        "text": "Neu\nBeta",
+        "y": 690,
+        "x": 40,
+        "size": 170,
+        "rotate": 14
+      }
+    },
+    {
+      "type": "text",
+      "title": "ChatGPT antwortet\nso oder so",
+      "text": "Ohne Claim nimmt das Modell, was es im Netz findet.",
+      "visual": {
+        "type": "chat",
+        "q": "Ab wann ist Check in im Hotel Seeblick?",
+        "a": "Laut einer Bewertung von 2021 ab 15 Uhr.",
+        "tag": "Quelle ungeprüft",
+        "tilt": -1.5
+      }
+    },
+    {
+      "type": "list",
+      "kicker": "Setup in 5 Schritten",
+      "title": "So sicherst du dir dein Profil",
+      "icons": [
+        "Globe",
+        "Search",
+        "Server",
+        "Mail",
+        "IdCard"
+      ],
+      "items": [
+        "**chatgpt.com/business-hub** öffnen",
+        "Unternehmen suchen und beanspruchen",
+        "Domain per DNS TXT verifizieren",
+        "E-Mail und Telefon bestätigen",
+        "Identität mit Ausweis prüfen"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Der einzige technische Schritt: **DNS**",
+      "text": "Ein TXT Eintrag beim Domain Anbieter. Kein Zugang? Kurz die Webagentur fragen.",
+      "visual": {
+        "type": "dns",
+        "domain": "deinhotel.de",
+        "rows": [
+          [
+            "Typ",
+            "TXT",
+            false
+          ],
+          [
+            "Name",
+            "@",
+            false
+          ],
+          [
+            "Wert",
+            "Code aus dem Hub",
+            true
+          ]
+        ]
+      },
+      "exampleLabel": "Alternative",
+      "exampleIcon": "Phone",
+      "example": "Verifizierung geht auch per Telefon, E-Mail oder Shopify Login."
+    },
+    {
+      "type": "compare",
+      "title": "Was der Claim ändert",
+      "cols": [
+        {
+          "label": "Ohne Profil",
+          "name": "Hotel Seeblick",
+          "rows": [
+            "Daten aus Fremdquellen",
+            "Alte Infos bleiben",
+            "Keine Auswertung"
+          ]
+        },
+        {
+          "label": "Mit Profil",
+          "name": "Hotel Seeblick",
+          "on": true,
+          "rows": [
+            "Eigene Daten als Quelle",
+            "Direkt änderbar",
+            "Auswertung der Anfragen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Neu dabei: der **Business Agent**",
+      "text": "Beantwortet in ChatGPT Fragen zu deinem Angebot. Zum Start kostenlos.",
+      "visual": {
+        "type": "chat",
+        "q": "Habt ihr Parkplätze?",
+        "a": "Ja, direkt am Haus. Soll ich dir die Anfahrt schicken?",
+        "agent": true,
+        "name": "Hotel Seeblick · Agent"
+      }
+    },
+    {
+      "type": "text",
+      "title": "Was wir Hotels\nkonkret raten",
+      "text": "Überall **dieselben** Daten. Widersprüche machen jede KI unsicher.",
+      "visual": {
+        "type": "sync",
+        "center": "Zentrale Hoteldaten",
+        "nodes": [
+          {
+            "icon": "MapPin",
+            "label": "Google\nProfil"
+          },
+          {
+            "icon": "Globe",
+            "label": "Website"
+          },
+          {
+            "icon": "MessageCircle",
+            "label": "ChatGPT\nProfil",
+            "on": true
+          },
+          {
+            "icon": "Phone",
+            "label": "KI Rezep­tionist"
+          }
+        ]
+      },
+      "exampleLabel": "Aus unserer Praxis",
+      "exampleIcon": "Building2",
+      "example": "Für unseren KI Rezeptionisten pflegen wir Zimmer, Check in und Sprachen zentral. Genau die gehören ins Profil."
+    },
+    {
+      "type": "takeaway",
+      "title": "Erst beanspruchen.\n**Dann** optimieren.",
+      "titleSize": 84,
+      "visual": {
+        "type": "chat",
+        "q": "Ab wann ist Check in im Hotel Seeblick?",
+        "a": "Ab 14 Uhr. Early Check in auf Anfrage.",
+        "tag": "Verifiziertes Profil",
+        "tagType": "ok"
+      }
+    },
+    {
+      "type": "cta",
+      "theme": "accent",
+      "icon": "MessageCircle",
+      "title": "Schon **beansprucht**?",
+      "text": "Schreib in die Kommentare, an welchem Schritt du hängst. Wir helfen beim DNS Teil.",
+      "button": "Speichern für den Setup"
+    }
   ],
   "caption": {
     "linkedin": "Seit dem 10. November hat jedes Unternehmen ein Profil in ChatGPT.\nDie meisten davon gehören noch niemandem.\n\nOpenAI hat den Business Hub gestartet. Dort beanspruchst du dein Unternehmen, verifizierst es und pflegst selbst, was ChatGPT über dich sagt. Dazu gibt es Auswertungen zu Anfragen und einen Business Agent, der in ChatGPT Fragen zu deinem Angebot beantwortet. Zum Start kostenlos.\n\nDer einzige technische Teil im Setup ist ein DNS Eintrag.\n\nUnser Rat aus der Arbeit mit Hotels: Die Daten im Profil müssen exakt zu Google Profil und Website passen. Für unseren KI Rezeptionisten pflegen wir diese Daten ohnehin zentral, also gehen sie genau so auch in ChatGPT.\n\nHinweis: Der Hub ist in der Beta, die Verfügbarkeit hängt vom Land ab.\n\nWelchen Wert hat für dich ein eigenes ChatGPT Profil im Vergleich zum Google Profil?\n\n#ChatGPT #KIimMittelstand #Hotellerie #LocalSEO #OpenAI",
