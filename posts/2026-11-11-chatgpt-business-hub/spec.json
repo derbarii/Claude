@@ -1,0 +1,24 @@
+{
+  "title": "ChatGPT Business Hub",
+  "source": "https://www.instagram.com/p/Dfmi5P6FSrb/ (heytony.agency), geprüft gegen VentureBeat und The Rundown Guide",
+  "collection": "OEZ AI",
+  "accent": "#FF6B2C",
+  "brand": "OEZ AI",
+  "handle": "@oez.ai",
+  "slides": [
+    { "type": "cover", "kicker": "Seit 10. November", "title": "Dein Unternehmen steht jetzt in **ChatGPT**", "sub": "OpenAI hat den Business Hub gestartet. Das Profil existiert, aber es gehört noch nicht dir." },
+    { "type": "text", "title": "ChatGPT beschreibt dich so oder so", "text": "Die Frage ist nur, mit welchen Daten. Ohne Claim übernimmt das Modell, was es im Netz findet. Öffnungszeiten, Angebot, Preise, alles ungeprüft." },
+    { "type": "list", "kicker": "Setup in 5 Schritten", "title": "So sicherst du dir dein Profil", "items": ["**chatgpt.com/business-hub** öffnen", "Unternehmen suchen und beanspruchen", "Domain per DNS TXT Eintrag verifizieren", "Geschäftliche E-Mail und Telefon bestätigen", "Identität mit Ausweis prüfen lassen"] },
+    { "type": "text", "title": "Der einzige technische Schritt: **DNS**", "text": "Ein TXT Eintrag beim Domain Anbieter, meist schnell erledigt. Kein Zugang? Webagentur oder IT kurz fragen, nicht abbrechen.", "exampleLabel": "Tipp", "example": "Alternativ lässt sich per Telefon, E-Mail oder Shopify Login verifizieren." },
+    { "type": "compare", "title": "Was der Claim ändert", "cols": [ { "label": "Ohne Profil", "text": "ChatGPT nutzt Fremdquellen. Veraltete Infos bleiben stehen. Du siehst nicht, was gefragt wird." }, { "label": "Mit Profil", "text": "Eigene Daten als Quelle. Änderungen direkt pflegen. Auswertungen zu Anfragen.", "on": true } ] },
+    { "type": "text", "title": "Neu dabei: der **Business Agent**", "text": "Im Hub lässt sich ein Agent veröffentlichen, der in ChatGPT Fragen zu deinem Angebot beantwortet. Zum Start kostenlos, Stand heute." },
+    { "type": "text", "title": "Was wir Hotels konkret raten", "text": "Daten 1:1 wie im Google Profil und auf der Website. Widersprüche machen jede KI unsicher.", "example": "Für unseren KI Rezeptionisten pflegen wir Zimmerarten, Check in Zeiten und Sprachen zentral. Genau diese Daten gehören auch ins ChatGPT Profil." },
+    { "type": "takeaway", "title": "Erst beanspruchen, dann optimieren.", "text": "Erste Auswertungen brauchen ein paar Tage. Jeder Tag Warten ist ein Tag ohne Daten." },
+    { "type": "cta", "title": "Schon **beansprucht**?", "text": "Schreib in die Kommentare, an welchem Schritt du hängst. Wir helfen beim DNS Teil.", "button": "Speichern für den Setup" }
+  ],
+  "caption": {
+    "linkedin": "Seit dem 10. November hat jedes Unternehmen ein Profil in ChatGPT.\nDie meisten davon gehören noch niemandem.\n\nOpenAI hat den Business Hub gestartet. Dort beanspruchst du dein Unternehmen, verifizierst es und pflegst selbst, was ChatGPT über dich sagt. Dazu gibt es Auswertungen zu Anfragen und einen Business Agent, der in ChatGPT Fragen zu deinem Angebot beantwortet. Zum Start kostenlos.\n\nDer einzige technische Teil im Setup ist ein DNS Eintrag.\n\nUnser Rat aus der Arbeit mit Hotels: Die Daten im Profil müssen exakt zu Google Profil und Website passen. Für unseren KI Rezeptionisten pflegen wir diese Daten ohnehin zentral, also gehen sie genau so auch in ChatGPT.\n\nHinweis: Der Hub ist in der Beta, die Verfügbarkeit hängt vom Land ab.\n\nWelchen Wert hat für dich ein eigenes ChatGPT Profil im Vergleich zum Google Profil?\n\n#ChatGPT #KIimMittelstand #Hotellerie #LocalSEO #OpenAI",
+    "instagram": "Dein Unternehmen steht jetzt in ChatGPT. Aber das Profil gehört noch nicht dir. 👇\n\nSeit 10. November gibt es den ChatGPT Business Hub. In 5 Schritten sicherst du dir dein Profil:\n\n1. chatgpt.com/business-hub öffnen\n2. Unternehmen suchen und beanspruchen\n3. Domain per DNS verifizieren\n4. E-Mail und Telefon bestätigen\n5. Identität prüfen lassen\n\nDanach pflegst du selbst, was ChatGPT über dich sagt, siehst Auswertungen und kannst einen Business Agent veröffentlichen. Zum Start kostenlos.\n\nUnser Tipp für Hotels: Daten 1:1 wie im Google Profil. Widersprüche machen jede KI unsicher.\n\nSpeichern für den Setup und schreib uns, wo du hängst.\n\n(Beta, Verfügbarkeit je nach Land.)\n\n#chatgpt #openai #kiimmittelstand #künstlicheintelligenz #hotelmarketing #hotellerie #localseo #onlinemarketing #digitalisierung #unternehmer #kitools #oezai",
+    "firstComment": "Direkter Link zum Setup: https://chatgpt.com/business-hub"
+  }
+}
