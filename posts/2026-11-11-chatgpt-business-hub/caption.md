@@ -1,41 +1,41 @@
 # Instagram Caption
 
-Dein Unternehmen steht jetzt in ChatGPT. Aber das Profil gehört noch nicht dir. 👇
+Dein Hotel steht jetzt in ChatGPT. Aber das Profil gehört noch nicht dir. 👇
 
-Seit 10. November gibt es den ChatGPT Business Hub. In 5 Schritten sicherst du dir dein Profil:
+Gäste fragen ChatGPT nach Parkplätzen, Check in Zeiten oder ob der Hund mit darf. Ohne beanspruchtes Profil antwortet das Modell mit dem, was es im Netz findet. Auch mit alten Bewertungen.
+
+So sicherst du dir dein Hotelprofil:
 
 1. chatgpt.com/business-hub öffnen
-2. Unternehmen suchen und beanspruchen
+2. Hotel suchen und beanspruchen
 3. Domain per DNS verifizieren
 4. E-Mail und Telefon bestätigen
 5. Identität prüfen lassen
 
-Danach pflegst du selbst, was ChatGPT über dich sagt, siehst Auswertungen und kannst einen Business Agent veröffentlichen. Zum Start kostenlos.
+Danach pflegst du die Angaben zu deinem Haus selbst, siehst Auswertungen und kannst einen Business Agent für Gästefragen aktivieren. Zum Start kostenlos.
 
-Unser Tipp für Hotels: Daten 1:1 wie im Google Profil. Widersprüche machen jede KI unsicher.
+Unser Tipp: Alles 1:1 wie im Google Profil und auf der Website. Widersprüche machen jede KI unsicher.
 
-Speichern für den Setup und schreib uns, wo du hängst.
+Speichern für den Setup. Und schreib DNS in die Kommentare, wenn du beim technischen Teil Hilfe willst.
 
 (Beta, Verfügbarkeit je nach Land.)
 
-#chatgpt #openai #kiimmittelstand #künstlicheintelligenz #hotelmarketing #hotellerie #localseo #onlinemarketing #digitalisierung #unternehmer #kitools #oezai
+#hotellerie #hotelmarketing #hotelier #hotelbranche #chatgpt #direktbuchung #gastgeber #tourismus #kiinderhotellerie #hotelsdach #oezai
 
 # LinkedIn Caption
 
-Seit dem 10. November hat jedes Unternehmen ein Profil in ChatGPT.
-Die meisten davon gehören noch niemandem.
+Seit dem 10. November kann jedes Hotel sein Profil in ChatGPT beanspruchen.
+Wer es nicht tut, überlässt Check in Zeiten, Parkplätze und Ausstattung dem, was irgendwo im Netz steht.
 
-OpenAI hat den Business Hub gestartet. Dort beanspruchst du dein Unternehmen, verifizierst es und pflegst selbst, was ChatGPT über dich sagt. Dazu gibt es Auswertungen zu Anfragen und einen Business Agent, der in ChatGPT Fragen zu deinem Angebot beantwortet. Zum Start kostenlos.
+Gäste fragen ChatGPT heute Dinge, die früher an der Rezeption landeten. Darf der Hund mit? Gibt es Parkplätze? Die Antwort kommt so oder so. Offen ist nur, aus welcher Quelle.
 
-Der einzige technische Teil im Setup ist ein DNS Eintrag.
+Im neuen Business Hub von OpenAI verifizierst du dein Hotel per DNS Eintrag, pflegst die Angaben selbst und siehst, was gefragt wird. Dazu kommt ein Business Agent, der Gästefragen direkt in ChatGPT beantwortet. Zum Start kostenlos, aktuell als Beta.
 
-Unser Rat aus der Arbeit mit Hotels: Die Daten im Profil müssen exakt zu Google Profil und Website passen. Für unseren KI Rezeptionisten pflegen wir diese Daten ohnehin zentral, also gehen sie genau so auch in ChatGPT.
+Unser Rat aus der Arbeit mit Hotels: Die Daten müssen exakt zu Google Profil, Website und Buchungsmaschine passen. Für unseren KI Rezeptionisten pflegen wir sie zentral. Genau dieser Datensatz gehört ins ChatGPT Profil.
 
-Hinweis: Der Hub ist in der Beta, die Verfügbarkeit hängt vom Land ab.
+Welche Gästefrage beantwortet ChatGPT über dein Hotel heute vermutlich falsch?
 
-Welchen Wert hat für dich ein eigenes ChatGPT Profil im Vergleich zum Google Profil?
-
-#ChatGPT #KIimMittelstand #Hotellerie #LocalSEO #OpenAI
+#Hotellerie #ChatGPT #Hotelmarketing #KIinderHotellerie #Direktbuchung
 
 # 1. Kommentar
 
