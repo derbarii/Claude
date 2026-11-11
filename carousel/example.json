@@ -1,0 +1,20 @@
+{
+  "source": "Beispiel ohne Quelle (Design Test)",
+  "accent": "#FF6B2C",
+  "brand": "OEZ AI",
+  "handle": "@oez.ai",
+  "slides": [
+    { "type": "cover", "kicker": "KI Rezeption", "title": "Nachts um 23 Uhr ruft **keiner** zurück", "sub": "Was passiert, wenn Hotelanrufe nach Feierabend von einem Voice Agent angenommen werden." },
+    { "type": "stat", "stat": "1 von 3", "title": "Anrufen läuft ins Leere", "text": "Abends, am Wochenende, in der Check in Spitze. Genau dann, wenn Gäste buchen wollen." },
+    { "type": "list", "kicker": "Was der Agent übernimmt", "title": "Drei Aufgaben, sauber gelöst", "items": ["Verfügbarkeit und Preise nennen", "Buchungsanfrage aufnehmen", "Rückruf an die Rezeption übergeben"] },
+    { "type": "compare", "title": "Vorher und nachher", "cols": [{ "label": "Ohne Agent", "text": "Mailbox, Rückruf am nächsten Morgen, Gast hat woanders gebucht." }, { "label": "Mit Agent", "text": "Antwort beim ersten Klingeln, Anfrage liegt morgens im System.", "on": true }] },
+    { "type": "text", "title": "Transparenz statt **Rollenspiel**", "text": "Der Agent sagt im ersten Satz, dass er eine KI ist.", "example": "Unser KI Rezeptionist für DACH Hotels stellt sich immer als Assistent vor. Abbrüche sind dadurch nicht gestiegen." },
+    { "type": "takeaway", "title": "Eine Aufgabe richtig schlägt fünf halb." },
+    { "type": "cta", "title": "Welche Aufgabe würdest du **zuerst** abgeben?", "text": "Schreib es in die Kommentare. Setup Fragen gern per DM.", "button": "Folge @oez.ai" }
+  ],
+  "caption": {
+    "linkedin": "Test Caption LinkedIn",
+    "instagram": "Test Caption Instagram",
+    "firstComment": ""
+  }
+}
