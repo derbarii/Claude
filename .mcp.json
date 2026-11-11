@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "redesign": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@nodewave-io/redesign", "mcp"],
+      "env": {}
+    }
+  }
+}

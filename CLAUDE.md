@@ -11,8 +11,16 @@ aus dem Inhalt einen neuen, eigenen Karussell Post bauen. Nicht nachfragen, dire
 3. Regeln aus dem Skill `linkedin-carousel-oezai` anwenden (Hook, 8 bis 10 Slides, Quality Gate, Banned Words,
    OEZ AI Fingerprint). Keine erfundenen Zahlen als "eigene Messung" ausgeben. Zahlen aus der Quelle mit Quelle nennen.
 4. Spec schreiben: `posts/<datum>-<slug>/spec.json` (Format siehe `carousel/example.json`).
-5. Rendern: `node carousel/render.mjs posts/<datum>-<slug>/spec.json`
-   Ergebnis: `slides/slide-01.png ...` (1080x1350, 4:5, passt für Instagram und LinkedIn) und `caption.md`.
+5. Rendern mit Redesign (Standard, github.com/Nodewave-io/redesign):
+   - Einmal pro Session: `npm i -g @nodewave-io/redesign`, Chromium verlinken
+     (`D=~/.redesign/chromium/chrome/linux-<build>/chrome-linux64; mkdir -p $D; ln -sf /opt/pw-browsers/chromium $D/chrome`,
+     Build Id steht in der Fehlermeldung bzw. via @puppeteer/browsers resolveBuildId), dann `redesign start` im Hintergrund.
+   - `node carousel/redesign.mjs posts/<datum>-<slug>/spec.json`
+     legt den Post in der Collection "OEZ AI" an (bzw. aktualisiert ihn), exportiert 2000x2500 PNGs nach `slides/`,
+     schreibt `caption.md` und `redesign.json` (Post Id, Editor Link). Jeder Slide ist im Editor bearbeitbar.
+   - Fallback ohne Redesign: `node carousel/render.mjs <spec.json>` (Playwright, 1080x1350, gleiches Design).
+   - Die MCP Tools von Redesign (`.mcp.json`) stehen erst nach einem Neustart der Session zur Verfügung.
+     Wenn sie da sind, dürfen sie für Feinschliff genutzt werden (media_get_post, Screenshot, Layer Edits).
 6. Jede PNG einzeln prüfen (Read), Textüberlauf korrigieren, neu rendern.
 7. Alle PNGs plus caption.md mit SendUserFile an den User schicken (display: attach), Captions zusätzlich im Chat.
 8. Commit und Push auf den Arbeitsbranch.
