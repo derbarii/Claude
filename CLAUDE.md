@@ -39,6 +39,7 @@ Reine Textfolien wirken wie KI Content. Pro Post mindestens 5 Slides mit Grafik:
 - Visuelle Klammer: Grafik aus Slide 2 in Slide 8 aufgelöst zeigen (z.B. Chat ungeprüft, dann verifiziert).
 - Beispielnamen im Mockup als Beispiel kennzeichnen, keine echten Hotels.
 - Fallback render.mjs kann keine visuals, nur Redesign.
+- Logo oben links kommt automatisch aus `carousel/brand/` (logo-dark, logo-light, logo-mono je nach Theme). `"logo": false` in der Spec schaltet zurück auf Punkt plus Text.
 
 ## Textlimits (sonst Überlauf)
 - cover title: max ca. 7 Wörter

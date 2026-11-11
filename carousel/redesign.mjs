@@ -172,6 +172,12 @@ function content(sl, p, idx) {
     + el('div', { position: 'absolute', left: PX, right: PX, top: 165, bottom: 150, display: 'flex', flexDirection: 'column', justifyContent: sl.align || 'center' }, body));
 }
 
+// ---------- Logo (carousel/brand, als data URL eingebettet) ----------
+const BRAND_DIR = path.join(path.dirname(new URL(import.meta.url).pathname), 'brand');
+const dataUrl = f => 'data:image/png;base64,' + fs.readFileSync(path.join(BRAND_DIR, f)).toString('base64');
+const LOGO = { dark: dataUrl('logo-dark.png'), light: dataUrl('logo-light.png'), accent: dataUrl('logo-mono.png') };
+const LOGO_H = 44, LOGO_RATIO = 815 / 227;
+
 // ---------- Post bauen ----------
 const slides = [], layers = [];
 spec.slides.forEach((sl, i) => {
@@ -184,8 +190,13 @@ spec.slides.forEach((sl, i) => {
   layers.push({ id: randomUUID(), kind: 'code', ...base, x: 0, y: 0, w: W, h: H, source: content(sl, p, i) });
   const txt = (x, y, w, h, text, extra = {}) => layers.push({ id: randomUUID(), kind: 'text', ...base, x, y, w, h, text, fontFamily: FONT, fontSize: 24, fontWeight: 700, color: fg, align: 'left', opacity: 0.6, ...extra });
   // Kopfzeile
-  layers.push({ id: randomUUID(), kind: 'shape', ...base, x: PX, y: PY + 8, w: 17, h: 17, shape: 'circle', fill: p.chrome });
-  txt(PX + 30, PY, 400, 34, spec.brand || 'OEZ AI', { letterSpacing: 0.5, opacity: 1 });
+  if (spec.logo !== false) {
+    // Logo oben links: Gold + weißes AI auf dunkel, Gold + dunkles AI auf hell, monochrom auf Akzent
+    layers.push({ id: randomUUID(), kind: 'image', ...base, x: PX, y: PY - 6, w: LOGO_H * LOGO_RATIO, h: LOGO_H, url: LOGO[theme] || LOGO.light, fit: 'contain' });
+  } else {
+    layers.push({ id: randomUUID(), kind: 'shape', ...base, x: PX, y: PY + 8, w: 17, h: 17, shape: 'circle', fill: p.chrome });
+    txt(PX + 30, PY, 400, 34, spec.brand || 'OEZ AI', { letterSpacing: 0.5, opacity: 1 });
+  }
   txt(W - PX - 200, PY, 200, 34, `${i + 1}/${total}`, { align: 'right' });
   // Fußzeile
   txt(PX, H - PY - 34, 400, 34, spec.handle || '@oez.ai');
